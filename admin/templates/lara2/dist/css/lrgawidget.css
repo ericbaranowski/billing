@@ -1,0 +1,131 @@
+.lrgawidget_seven-cols {
+	  position: relative;
+	  min-height: 1px;
+	  padding: 0px;
+	  margin: 0px;
+	  cursor: pointer;
+	  cursor: hand;	
+      width: 14.285714285714285714285714285714%;
+}
+
+.lrgawidget_seven-cols:hover {
+    border: 1px solid #a6cee3;
+}
+
+.lrgawidget_seven-cols.selected {
+    background-color: #f8f8f8;
+} 
+
+#lrgawidget_sb-main{
+	height: 90px;
+}
+
+.doughnutwithmiddleicon-legend {
+  list-style: none;
+  padding:5px;
+  position: absolute;
+  right: 8px;
+  top: 0;
+  margin-right: 15px;
+  margin-top: 10px;  
+  background: #ffffff;
+  border: 1px solid #a6cee3;
+  border-radius: 5px;
+  min-width: 150px;
+}
+
+.doughnutwithmiddleicon-legend ul {
+  list-style: none;
+}
+
+.doughnutwithmiddleicon-legend li {
+  display: block;
+  padding-left: 0px;
+  position: relative;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: default;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+.doughnutwithmiddleicon-legend li:hover {
+  background-color: #f4f4f4;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.doughnutwithmiddleicon-legend li span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#lrgawidget_body canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+	height: 350px;
+
+}
+
+.dataTable tbody tr.selected{
+	background-color:#f4f4f4;
+}
+
+#lrgawidget_sessions_tab .legendColorBox{
+	padding-right: 4px;
+}
+
+#lrgawidget_loading {
+	margin-right: 15px;
+}
+
+#lrgawidget_mode {
+	margin-right: 15px;
+}
+
+#lrgawidget{
+	min-height: 485px;
+}
+
+#lrgawidget_main{
+	box-shadow: none;
+	margin-bottom: 0px;
+}
+#lrgawidget_body {
+	padding: 0px;
+}
+
+#lrgawidget_daterange-btn {
+	margin-right: 10px;
+	background-color: #f5f5f5;
+}
+
+#lrgawidget_daterange_label{
+	margin-right: 10px;
+	background-color: #f5f5f5;
+}
+
+#lrgawidget_remove{
+	display:inline-block;
+	padding: 5px; 
+	cursor: pointer;	
+}
+
+.fuelux .wizard > .actions {
+	line-height: 42px;
+	background-color: transparent;
+	border-left: none;
+	border-radius: 0px;
+}
+

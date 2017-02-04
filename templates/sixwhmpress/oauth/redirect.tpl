@@ -1,0 +1,12 @@
+<!-- Template Start oauth/redirect.tpl -->
+<div class="container">
+    <div class="alert alert-success text-center">
+        {lang key='oauth.redirectDescriptionOne'}<br />
+        {lang key='oauth.redirectDescriptionTwo'}
+        <a href="#" class="alert-link">
+            {lang key='oauth.redirectDescriptionThree'}
+            <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+</div>
+<!-- Template End oauth/redirect.tpl -->

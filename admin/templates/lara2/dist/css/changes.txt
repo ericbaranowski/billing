@@ -1,0 +1,22 @@
+= Changed 
+
+* .sidebar-mini.sidebar-collapse .sidebar-menu > li:hover > a > span:not(.pull-right), .sidebar-mini.sidebar-collapse .sidebar-menu > li:hover > .treeview-menu
+   width to 250px
+   
+* .navbar-nav > .user-menu > .dropdown-menu > li.user-header
+  heigh to 110px
+  
+* @media (max-width: 991px) {  .main-header .navbar-custom-menu a,  .main-header .navbar-right a {
+  disabled
+
+* .navbar-nav > .notifications-menu > .dropdown-menu > li.header,
+.navbar-nav > .messages-menu > .dropdown-menu > li.header,
+.navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+
+  added   height: 35px;  
+  
+ * .alert a {
+    disabled
+	
+* .btn-default
+removed   background-color: #f4f4f4;

@@ -1,0 +1,17 @@
+/* - Use this file to apply any custom JavaScript/JQuery code. 
+   - This file will load after loading all the header JavaScript files.
+   - If you modify the theme directly and it is updated, then your modifications will be lost.
+     By using this file you will ensure that your modifications are preserved.
+	 
+   IMPORTANT: 
+   
+			*  Change the file name to custom.js to activate it.
+				
+			*  After changing this file and uploading it to the server, 
+               you'll need to clear the cache memory of your browser.
+               This is done by doing a force refresh as follows :
+
+               Windows: ctrl + F5
+			   Mac/Apple: Apple + R or Command + R
+			   Linux: F5
+*/

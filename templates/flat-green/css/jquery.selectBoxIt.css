@@ -1,0 +1,193 @@
+/*
+ * jquery.selectBoxIt.css 2.9.0
+ * Author: @gregfranko
+ */
+
+/* Div container holding the dropdown list */
+.selectboxit-container {
+  position: relative;
+  display: inline-block;
+  /* Prevents text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* Dropdown List Box */
+.selectboxit-container .selectboxit {
+  height: 30px; /* Height of the select box */
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+  border-radius: 6px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.selectboxit-container .selectboxit:focus {
+  outline: 0;
+}
+
+.selectboxit-container .selectboxit.selectboxit-disabled {
+  cursor: default;
+}
+
+/* Dropdown list Default Icon Positioning */
+.selectboxit-default-icon {
+  float: left;
+}
+
+/* Dropdown List Box Text */
+.selectboxit-text {
+  font: 14px Helvetica, Arial;
+  text-indent: 5px;
+  line-height: 30px;
+  max-width: 100% !important;
+  float: left;
+  white-space: nowrap;
+}
+
+/* Dropdown List Options List*/
+.selectboxit-container .selectboxit-options {
+  min-width: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  overflow: auto;
+  cursor: pointer;
+  display: none;
+  z-index: 9999999999999;
+  outline: none;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  -moz-box-shadow: none; /* Firefox */
+  -webkit-box-shadow: none; /* Safari, Chrome */
+  box-shadow: none; /* CSS3 */
+  border-radius: 6px;
+  text-align: left;
+  margin-top: 7px;
+}
+
+/* Overrides Bootstrap drop down option style */
+.selectboxit-options .selectboxit-option.active .selectboxit-option-anchor {
+  color: #fff;
+}
+
+.selectboxit-option .selectboxit-option-anchor {
+  padding: 0px 3px;
+  line-height: 30px;
+}
+
+.selectboxit-option .selectboxit-option-anchor:hover {
+  text-decoration: none;
+}
+
+/* Dropdown List Individual Options */
+.selectboxit-option, .selectboxit-optgroup-header {
+  line-height: 30px; /* Height of Individual Select Box Options */
+  overflow: hidden;
+  white-space: nowrap;
+  list-style: none;
+  margin: 0;
+}
+
+/* The first drop down option */
+/* The last drop down option */
+.selectboxit-option-last {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  margin-bottom: 0 !important;
+}
+
+/* Dropdown List Optgroup Headers */
+.selectboxit-optgroup-header {
+  font-weight: bold;
+}
+
+/* Dropdown List Optgroup Options */
+.selectboxit-optgroup-option {
+  text-indent: 20px;
+}
+
+/* Dropdown List Optgroup Header hover psuedo class */
+.selectboxit-optgroup-header[data-disabled='true']:hover {
+  cursor: default;
+}
+
+/* Dropdown List Down Arrow Container (if an image is not used) */
+.selectboxit-arrow-container {
+  /* Positions the down arrow */
+  float: right;
+  position: relative;
+  padding-left: 35px;
+  top: -2px;
+}
+
+/* Dropdown List Down Arrow */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  /* Horizontally centers the down arrow */
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+}
+
+/* Dropdown List Down Arrow For jQueryUI and jQuery Mobile */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow.ui-icon {
+  top: 30%;
+}
+
+/* Dropdown List Individual Option Icon Positioning */
+.selectboxit-option-icon {
+  float: left;
+}
+
+/* Dropdown List Individual Option Image Positioning */
+.selectboxit-option-icon-url {
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+}
+
+.selectboxit-default-icon.selectboxit-option-icon-url {
+  margin-left: 5px;
+}
+
+/* jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon {
+  background-color: inherit;
+}
+
+/* Another jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon-triangle-1-s {
+  background-position: -64px -16px;
+}
+
+
+.selectboxit-options.dropdown-menu {
+	background: white !important;	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-top: 1px solid #ccc;
+	border-top: 1px solid rgba(0,0,0,.2);
+	padding: 0 !important;
+}
+
+.selectboxit-text {
+	padding: 0 !important;
+}
+
+.well .form-inline .bigfield {
+	height: 48px !important;
+	padding: 6px 15px !important;
+}

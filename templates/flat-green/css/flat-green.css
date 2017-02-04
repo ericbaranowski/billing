@@ -1,0 +1,367 @@
+body {
+	background-color: #f2f2f2;
+	color: #616161;
+}
+
+a, .breadcrumb a:hover {
+	color: #27ae60;
+}
+
+header {
+	background-color: #232a31;
+}
+
+header h1 a {
+	text-shadow: #2b9956 0 2px 0;
+}
+
+.primary-nav {
+	background-color: #27ae60;
+	
+}
+
+header .sep {
+	background-image: url(../img/header-divider.png) !important;
+}
+
+.header-messages .icon {
+	background-image: url(../img/header-messages.png) !important;
+}
+
+.header-invoices .icon {
+	background-image: url(../img/header-invoices.png) !important;
+}
+
+.header-services .icon {
+	background-image: url(../img/header-services.png) !important;
+}
+
+.header-notifications a.header-messages .bubble {
+	background-image: url(../img/red-bubble.png) !important;
+}
+
+.header-search {
+	background-color: #27ae60;
+	-moz-box-shadow: 0 1px 1px rgba(255,255,255,.05), inset 0 1px 0 rgba(44,62,80,.1);
+	-webkit-box-shadow: 0 1px 1px rgba(255,255,255,.05), inset 0 1px 0 rgba(44,62,80,.1);
+	box-shadow: 0 1px 1px rgba(255,255,255,.05), inset 0 1px 0 rgba(44,62,80,.1);
+	background-image: url(../img/kbsearch-icon.png) !important;
+	color: #ffffff !important;
+}
+
+.header-search:focus{
+	background-color: #27ae60;
+	background-image: url(../img/kbsearch-icon.png) !important;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	-moz-box-shadow: inset 0 0 0 2px #25A55B !important;
+	-webkit-box-shadow: inset 0 0 0 2px #25A55B !important;
+	box-shadow: inset 0 0 0 2px #25A55B !important;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+header a.dropdown-toggle {
+	color: #434343;
+}
+
+header a.dropdown-toggle span {
+	background-image: url(../img/account-dropdown.png) !important;
+}
+
+::-webkit-input-placeholder {
+   color: #5fd993;
+}
+:-moz-placeholder {
+   color: #5fd993;  
+}
+::-moz-placeholder { 
+   color: #5fd993;  
+}
+:-ms-input-placeholder {  
+   color: #5fd993;  
+}
+
+.primary-nav ul li:hover, .primary-nav ul li.active {
+	-moz-box-shadow: inset 0px -4px 0px #27ae60;
+	-webkit-box-shadow: inset 0px -4px 0px #27ae60;
+	box-shadow: inset 0px -4px 0px #27ae60;
+}
+
+.primary-nav ul li, .primary-nav ul li:last-child {
+	border-color: rgba(0,0,0,0.15);
+}
+
+
+.dropdown .caret {
+	background: url(../img/caret.png) !important;
+}
+
+.dropdown li a, header .nav .dropdown-menu li a, .dropdown-menu a {
+	color: #313131 !important;
+}
+
+.dropdown li a:hover, header .nav .dropdown-menu li a:hover, .dropdown-menu li a:hover {
+    color: #27ae60 !important;
+    font-weight: normal !important;
+    transition: all 0.2s ease 0s;
+}
+
+.breadcrumb {
+	border-color: #dbdbdb;
+}
+
+.breadcrumb h2 {
+	color: #545454;
+}
+
+.breadcrumb a {
+	color: #545454;
+}
+
+.breadcrumb ul li {
+	background-image: url(../img/breadcrum-arrow.png);
+}
+
+.well, .domain-checker {
+	border-color: #ddd7d7;
+	background-color: #fff;
+	color: #787878;
+}
+
+h2 {
+	color: #4e4e4e;
+}
+
+input[type="text"], input[type="password"], select, textarea, input[type="email"], input[type="file"] {
+	border: 1px solid #dcdcdc;
+	background-color: #f9f9f9;
+	-moz-box-shadow: inset 1px 2px 0 rgba(0,0,0,.02);
+	-webkit-box-shadow: inset 1px 2px 0 rgba(0,0,0,.02);
+	box-shadow: inset 1px 2px 0 rgba(0,0,0,.02);
+	color: #8d8d8d;
+}
+
+.domaincheck .btn {
+    background-image: url(../img/order-hosting.png);
+}   
+
+.domaincheck .btn-success {
+    background-image: url(../img/transfer-domain.png);
+}
+
+.domaincheck .btn-primary {
+    background-image: url(../img/check-domain.png);
+}    
+
+.selectboxit-options.dropdown-menu li a:hover {
+ background: #00bc54 !important;
+ color: white !important;
+}
+
+input:focus, select:focus, textarea:focus {
+ -webkit-box-shadow: 0 0 6px #c9f0da !important;
+ -moz-box-shadow: 0 0 6px #c9f0da !important;
+ box-shadow: 0 0 6px #c9f0da !important;
+ transition: all 0.2s ease 0s;
+ background: #fff;
+}    
+  
+
+.btn {
+	border-color: #d4cecd !important;
+	color: #616161;
+}
+
+.btn:hover {
+	background-color: #f9f9f9 !important;
+	border-color: #ccc;
+}
+
+.btn-primary {
+	border-color: #1e8c4b !important;
+	background-color: #27ad5f !important;
+	color: white;
+}
+
+.btn-primary:hover {
+	border-color: #0a7f3b !important;
+	background-color: #0e8c43 !important;
+}
+
+.btn-success {
+	background-color: #3397db !important;
+	border-color: #006ab2 !important;
+	color: white;
+}
+
+.btn-success:hover {
+	background-color: #0072bd !important;
+	border-color: #005a95 !important;
+}
+
+.internalpadding h2 {
+	border-color: #16222f;
+	background-color: #2f2f2f;
+	-moz-box-shadow: inset 0 2px 0 rgba(244,244,244,.06);
+	-webkit-box-shadow: inset 0 2px 0 rgba(244,244,244,.06);
+	box-shadow: inset 0 2px 0 rgba(244,244,244,.06);
+}
+
+.row .innercontent p, .announcements p, .twitter ul li {
+	color: #787878;
+}
+
+#whmcsfooter {
+	color: #666666 !important;
+}
+
+.account-overview .badge-total {
+	background-color: #f1ecec;
+	color: #313131;
+}
+
+.account-overview .badge-active {
+	background-color: #27ae60;
+}
+
+.accountinfo h2 {
+	background-image: url(../img/account-info.png);
+}
+
+.accountview h2 {
+	background-image: url(../img/account-overview.png);
+}
+
+.row .innercontent {
+	border-color: #daded8;
+}
+
+.accountinfo .btn .icon {
+	background-image: url(../img/edit-info-icon.png);
+}
+
+.domain-checker h2 {
+	background-image: url(../img/ico_binoculars.png);
+}
+
+.table_title {
+	border-color: #1e8c4b;
+	background-color: #27ad5f;
+	-moz-box-shadow: inset 0 2px 0 rgba(255,255,255,.05);
+	-webkit-box-shadow: inset 0 2px 0 rgba(255,255,255,.05);
+	box-shadow: inset 0 2px 0 rgba(255,255,255,.05);
+}
+
+.table_title a.btn {
+	color: #616161;
+}
+
+.table_title a.btn:hover {
+	background-color: #f9f9f9 !important;
+}
+
+h3.open-tickets-icon {
+    background-image: url(../img/open-tickets-icon.png);
+}    
+
+h3.due-invoices-icon {
+    background-image: url(../img/due-invoices-icon.png);
+}    
+    
+.table_title h3 strong {
+    color: #5fd993 !important;
+}
+
+.whmcscontainer table th a {
+	color: #616161;
+}
+
+.whmcscontainer table th {
+	background-color: #f3f3f3;
+	border-color: #d4d4d4 ;
+}
+
+.whmcscontainer table td {
+	border-color: #ccc;
+	color: #616161;
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+	background-color: #f5f5f5;
+}
+
+.clientareahome-label-totaldue strong {
+	color: #616161;
+}
+
+.clientareahome-label-totalamount strong {
+    color: #34af69;
+}
+
+.invoice-footer td {
+	background-color: #f5f5f5;
+}
+
+ul.departments li a:hover {
+	background-color: #19a656;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+.masspayth tr th {
+	background-color: #3eb672 !important;
+	border-color: #2ba861 !important;
+}
+
+/* Announcements */
+.announcement,.view-announcement{
+	background: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 15px;
+	border: 1px solid #ddd7d7;
+	box-shadow: 0 1px 1px #e4e9e3;
+	-moz-box-shadow: 0 1px 1px #e4e9e3;
+	-webkit-box-shadow: 0 1px 1px #e4e9e3;
+	line-height: 21px;
+}
+
+/* Addons */
+.product-details th,.altthead {
+	background: #3EB672 !important;
+	border-color: #2ba861 !important;
+	color: #fff !important;
+}
+
+.ticketmsgs .adminheader {
+	background-color: #149a4c !important;
+}
+
+/* Recaptcha */
+@media (max-width: 444px) {
+	.recaptchatable #recaptcha_image {
+	margin: 0 auto !important;
+	float: none !important;
+	width: 200px !important;
+	}
+	.recaptchatable .recaptcha_r1_c1, .recaptchatable .recaptcha_r3_c1, .recaptchatable .recaptcha_r3_c2, .recaptchatable .recaptcha_r7_c1, .recaptchatable .recaptcha_r8_c1, .recaptchatable .recaptcha_r3_c3, .recaptchatable .recaptcha_r2_c1, .recaptchatable .recaptcha_r4_c1, .recaptchatable .recaptcha_r4_c2, .recaptchatable .recaptcha_r4_c4, .recaptchatable .recaptcha_image_cell {
+	background: none !important;
+	}
+	
+	#recaptcha_response_field {
+		border-color: #ccc !important;
+		padding: 6px 13px !important;
+		color: #8D8D8D !important;
+		line-height: 30px !important;
+		display: block !important;
+	}	
+	
+	#recaptcha_response_field::-moz-placeholder {
+		color: #8D8D8D !important;
+	}
+
+}

@@ -1,0 +1,388 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Roboto",sans-serif;
+}
+
+body #bridge #header .logo{
+	display: none;
+}
+
+body section#home-main-body, body section#home-main-body .main-content{
+	height: auto;
+	min-height: auto;
+}
+
+#bridge #twitterFeedOutput .tweet{
+	clear: both;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+body #bridge #home-main-body{
+	background: #F3F3F3;
+	margin: 0;
+    padding: 60px 0 0;
+}
+
+body #bridge section#main-menu{
+	background: #007CA6;
+}
+body #bridge section#main-menu a, body #bridge .home-shortcuts a{
+	color: #FFF;
+}
+
+body #bridge section#main-menu .navbar-nav > li > a:hover{
+	color: #333333;
+}
+body #bridge section#main-menu .navbar-nav > li > ul > li > a{
+	color: #333333;
+}
+body #bridge section#main-menu .navbar-nav > li > ul > li > a:hover{
+	background: #87C827;
+	color: #FFF;
+}
+
+body #bridge section#main-menu .navbar-right li ul a{
+	color: #333333;
+}
+body #bridge section#main-menu .navbar-right li ul a:hover{
+	background: #87C827;
+	color: #FFF;
+}
+#bridge section#main-menu .dropdown-toggle:hover, #bridge section#main-menu .open .dropdown-toggle{
+	color: #333333;
+}
+
+#bridge section#main-menu .open .dropdown-toggle .caret{
+	border-bottom-color: #333;
+    border-top-color: #333;
+}
+
+#bridge .whmcs-section1{
+	margin-bottom: 30px;
+}
+
+#bridge .whmcs-section1 .container > .col-sm-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#bridge .whmcs-section1 .container > .col-sm-4 p{
+	width: 90%;
+}
+
+body #bridge .button.primary, body > #home-main-body .button.primary, body > #main-body .button.primary{
+	background: #86c724 none repeat scroll 0 0;
+	border-radius: 3px;
+	color: #fff;
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 32px;
+	padding: 4px 20px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	white-space: nowrap;
+	border: none;
+}
+
+body #bridge .whmcs-section1 .announcement p{
+	margin-bottom: 15px;
+}
+
+
+body section#home-banner h2{
+	font-family: "Roboto",sans-serif;
+	font-size: 45px;
+	font-weight: 300;
+	line-height: 50px;
+	margin-bottom: 15px;
+}
+
+body #bridge #footer{
+	display: none;
+}
+
+body #bridge .main-content > p[style="text-align:center;"]:last-child, 
+body .main-content > p[style="text-align:center;"]:last-child{
+	display: none;
+}
+/*----------- Login page -----------*/
+body .logincontainer{
+	
+}
+
+div.header-lined h1{
+	text-transform: uppercase;
+}
+
+
+/*----------- Knowledgebase -----------*/
+body #bridge .frm_knowledgebase{
+	margin-bottom: 20px;
+}
+
+body #bridge #main-body .kbcategories{
+	margin-bottom: 20px;
+}
+
+body #bridge #main-body .kbcategories > .col-sm-4{
+	padding-left: 0;
+	padding-right: 0;
+	width: 31%;
+	margin-right: 3.5%;
+}
+body #bridge #main-body .kbcategories > .col-sm-4:last-child{
+	margin-right: 0;
+}
+
+body #bridge .kbarticles .kbarticle-item{
+	margin-bottom: 20px;
+}
+
+body #bridge .frm_download{
+	margin-bottom: 20px;
+}
+
+body #bridge .announcement-single{
+	margin-bottom: 40px;
+}
+body #bridge blockquote{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+
+/*----------- Customer LogedIn -----------*/
+
+#bridge .main-content .modal.fade{
+	display: none;
+}
+
+#bridge .main-content .tiles {
+    margin: 0 0 24px;
+}
+
+body #bridge #main-body .client-home-panels > .row > .col-sm-6,
+body #bridge #order-modern #mainfrm > .row > .col-md-6{
+	padding-left: 0;
+	padding-right: 0;
+	width: 49%;
+	margin-right: 2%;
+}
+body #bridge #main-body .client-home-panels > .row > .col-sm-6:last-child,
+body #bridge #order-modern #mainfrm > .row > .col-md-6:last-child{
+	margin-right: 0;
+}
+
+body #bridge #main-body .host_plans .planbox .prices strong{
+	font-size: 18px;
+}
+
+#bridge .btn{
+	min-width: auto;
+}
+#bridge .btn > .sr-only{
+	display: none;
+}
+
+body #bridge .client-home-panels a.btn{
+	color: #FFF;
+}
+
+body #bridge .btn-default:hover, body #bridge .btn-default:focus, body #bridge .btn-default:active, body #bridge .btn-default.active, body #bridge .open .dropdown-toggle.btn-default{
+	background-color: #007CA6;
+}
+body #bridge .btn.btn-success{
+	color: #FFF;
+}
+
+body .home-kb-search .form-control{
+	background-color: #E0E0E0;
+	color: #333;
+}
+
+body #main-body .new-tlds-home-banner{
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #0069a6 0%, #1c7ca6 100%) repeat scroll 0 0;	
+}
+
+body #order-comparison .stepscontainer, body #order-comparison .cartcontainer{
+	width: 100%;
+}
+
+body #order-comparison .cartcontainer form > p[align="center"]:last-child{
+	padding-top: 30px;
+}
+
+table.configtable{
+	margin-top: 20px;
+}
+
+
+body #bridge .king_res_cart{
+	display: none;
+}
+
+
+@media only screen and (min-width: 1170px) and (max-width: 1279px){
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+	
+}
+
+@media only screen and (min-width: 99px) and (max-width: 999px){
+	body #bridge .navbar-default .navbar-toggle{
+		display: block;
+		background-color: #FFF;
+	}
+	
+	body #bridge .navbar-default .navbar-toggle > span {
+		background-color: #333;
+	}
+	
+	body #bridge section#main-menu a{
+		color: #FFF;
+		border: 1px dashed #fff;
+		margin-bottom: 8px;
+	}
+			
+	body #bridge #main-menu .navbar-nav .open .dropdown-menu {
+		display: inline-block;
+		max-width: 100%;
+		width: 100%;
+		border: 1px dotted #FFF;
+	}
+	
+	body #bridge section#main-menu .navbar-nav > li > ul > li > a{
+		color: #FFF;
+	}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+	#bridge .whmcs-section1 .container > .col-sm-4{
+		margin-bottom: 60px;
+		width: 50%;
+		float: left;
+	}
+	#bridge .whmcs-section1 .container > .col-sm-4:last-child{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 99px) and (max-width:767px){
+	body section#home-banner h2{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	
+	body .home-shortcuts .text-center{
+		width: 100%;
+	}
+	
+	#bridge .whmcs-section1 .container > .col-sm-4{
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	
+	#bridge .whmcs-section1 .container > .col-sm-4 p{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 374px) and (max-width:767px){
+	
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+	body .home-shortcuts li, body .home-shortcuts ul:hover li{
+		width: 24%;
+		display: inline-block;
+		border: none;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 639px){
+	body #bridge #main-body .client-home-panels > .row > .col-sm-6, body #bridge #order-modern #mainfrm > .row > .col-md-6{
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+	body .home-shortcuts li, body .home-shortcuts ul:hover li{
+		width: 24%;
+		display: inline-block;
+		border: none;
+		margin-bottom: 10px;
+	}
+	
+	body .home-shortcuts li p{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 413px) and (max-width: 479px){
+	
+}
+
+@media only screen and (min-width: 374px) and (max-width: 413px){
+	
+}
+
+@media only screen and (max-width: 479px){
+	body #bridge .home-shortcuts ul li a {
+		color: #FFF;
+		border: 1px dashed #fff;
+		margin-bottom: 8px;
+	}
+	
+	body #bridge .home-shortcuts ul li a{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	body #bridge .home-shortcuts ul li{
+		border-bottom: none;
+	}
+}
+
+body #bridge .domain-bulk-options-box .btn{
+	color:#fff;
+}
+body #bridge a.list-group-item.active{
+	color:#fff;
+}
+
+.domain-suggestions .col-sm-6{
+	margin-bottom: 20px;
+}
+.king-whmcs-wrapper .btn{
+    margin-bottom:10px;
+}
+.domain-suggestions .col-sm-6{
+	margin-bottom: 20px;
+}
+
+#bridge .container>.navbar-header, #bridge .container>.navbar-collapse{
+	margin:0!important;
+}
+
+#bridge .form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}

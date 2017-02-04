@@ -1,0 +1,17 @@
+/* *****************************************************
+
+  Flex WHMCS Template CSS Stylesheet
+  Created: 15th March 2013
+  Last Updated: 15th March 2013
+  Version: 1.2
+
+***************************************************** */
+
+table.no-more-tables, 
+.no-more-tables thead, 
+.no-more-tables tbody, 
+.no-more-tables th, 
+.no-more-tables td, 
+.no-more-tables tr { 
+ float: left;
+}
